@@ -19,6 +19,6 @@ function setup() {
    let palavra = "Caminhante";
    let quantidade = map(mouseX, 0, width, 0, palavra.length);
    let parcial = palavra.substring(0,quantidade);
-  
+  //comentando o projeto
    text(parcial,300,200); 
   }
